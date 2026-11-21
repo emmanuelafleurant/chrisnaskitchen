@@ -1,0 +1,37 @@
+
+:root {
+    /* Colors */
+    --blue: #00209F;
+    --red: #D21034;
+    --cream: #FBF3E4;
+    --gold: #F4C95D;
+
+
+    /* Fonts */
+  --font-display: 'Playfair Display', Georgia, serif;  /* headlines, prices */
+  --font-slab: 'Alfa Slab One', Georgia, serif;        /* KREMAS, sizes, sign text */
+  --font-script: 'Pacifico', cursive;                  /* wordmark, signature */
+  --font-body: 'Nunito', system-ui, sans-serif;        /* body, labels, buttons */
+}
+
+*{
+    box-sizing:boder-box;
+}
+
+body{
+    margin: 0;
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--text);
+    background-color: var(--cream);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    font-family: var(--font-script);
+    font-size: 32px;
+} 
